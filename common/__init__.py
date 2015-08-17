@@ -16,7 +16,7 @@ CREATE TABLE pluto (
 num INT PRIMARY KEY,
 borough VARCHAR(3),
 schoolDis INT,
-address CHAR(100),
+address STRING,
 floors FLOAT,
 landmark CHAR(50),
 zipCode INT);"""
@@ -29,15 +29,24 @@ with open("common/mn.csv") as data:
     ndict_mapping = {}
     for i in xrange(0, len(header)):
         ndict_mapping[i] = header[i]
-data_stuff.pop()
+#data_stuff.pop()
+del data_stuff[0]
 for key in data_stuff:
-    b = key[0]
-    sd = key[6]
-    add = key[12]
-    floors = key[42]
-    lm = key[63]
-    zc = key[8]
-    sql = "insert into pluto (borough, schoolDis, address, floors,landmark, zipCode) values (" + b + ", " + sd + ", " + add + ", " + floors + ", " + lm + ", " + zc + ");"
+    b = (key[0])
+    if (key[6]!="  "): 
+        print type(key[6])
+        sd = int(key[6])
+    else: sd = 0
+    add = (key[12])
+    if key[42]!="  ":
+        floors = float(key[42])
+    else: floors = 0
+    lm = (key[63])
+    if key[8]!="     ": zc = int(key[8])
+    else: zc = 0
+    #sql = "insert into pluto (borough, schoolDis, address, floors,landmark, zipCode) values (" + b + ", " + sd + ", " + add + ", " + floors + ", " + lm + ", " + zc + ");"
+    sql = "insert into pluto (borough, schoolDis, address, floors,landmark, zipCode) values (\"%s\",%d,\"%s\",%d,\"%s\",%d);" % (b,sd,add,floors,lm,zc)
+    print sql
     cursor.execute(sql)
 connection.commit()
 connection.close()
