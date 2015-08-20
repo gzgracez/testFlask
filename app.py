@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import requests
 
 app = Flask(__name__)
@@ -7,6 +7,10 @@ app.config["DEBUG"] = True
 @app.route("/")
 def hello():
     return "Hello World!"
+
+@app.route("/render")
+def render():
+    return render_template("js.html")
 
 @app.route("/search/<search_query>")
 def search(search_query):
