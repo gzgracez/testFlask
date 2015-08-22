@@ -3,13 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='minimal.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
     </head>
     <body>
-        <h1>Search</h1>
-        <form action="/search" method="post">
-            <input type="text" placeholder="Search on Github" name="user_search" required/>
-            <button type="submit">Search</button>
-        </form>
-        {% block results %}{% endblock %}
+        <div class="main">
+            <h1>Search</h1>
+            <form action="/search" method="post">
+                <input type="text" placeholder="Search on Github" name="user_search" required/>
+                <button type="submit">Search</button>
+            </form>
+            {% block results %}{% endblock %}
+        </div>
     </body>
 </html>
