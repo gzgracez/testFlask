@@ -1,0 +1,305 @@
+{
+  "items": [
+    {
+      "description": "An example module for PyroCMS. Explore it or use it as a template for creating a custom module.", 
+      "html_url": "https://github.com/pyrocms/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/323921?v=3", 
+        "html_url": "https://github.com/pyrocms", 
+        "login": "pyrocms"
+      }
+    }, 
+    {
+      "description": "", 
+      "html_url": "https://github.com/mwsoft/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/450745?v=3", 
+        "html_url": "https://github.com/mwsoft", 
+        "login": "mwsoft"
+      }
+    }, 
+    {
+      "description": "HTML\u30b9\u30b1\u30c3\u30c1\u30b7\u30ea\u30fc\u30ba\u306e\u30b5\u30f3\u30d7\u30eb\u30b3\u30fc\u30c9\u3067\u3059\u3002http://www.youtube.com/user/ellekasai/videos", 
+      "html_url": "https://github.com/htmlsketch/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/6570025?v=3", 
+        "html_url": "https://github.com/htmlsketch", 
+        "login": "htmlsketch"
+      }
+    }, 
+    {
+      "description": "some code sample", 
+      "html_url": "https://github.com/eagle0445/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2162004?v=3", 
+        "html_url": "https://github.com/eagle0445", 
+        "login": "eagle0445"
+      }
+    }, 
+    {
+      "description": "Web\u5e33\u306esample\u3067\u3059\u3002", 
+      "html_url": "https://github.com/webcyou/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4020829?v=3", 
+        "html_url": "https://github.com/webcyou", 
+        "login": "webcyou"
+      }
+    }, 
+    {
+      "description": "", 
+      "html_url": "https://github.com/ASLJava/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/9018744?v=3", 
+        "html_url": "https://github.com/ASLJava", 
+        "login": "ASLJava"
+      }
+    }, 
+    {
+      "description": "File templates for front-end projects.", 
+      "html_url": "https://github.com/cssmagic/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1231359?v=3", 
+        "html_url": "https://github.com/cssmagic", 
+        "login": "cssmagic"
+      }
+    }, 
+    {
+      "description": "Fork this and send back a pull request", 
+      "html_url": "https://github.com/unisport/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/210586?v=3", 
+        "html_url": "https://github.com/unisport", 
+        "login": "unisport"
+      }
+    }, 
+    {
+      "description": "Resume template for Chinese programmers . \u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u7cfb\u5217\u3002\u5305\u62ecPHP\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001iOS\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001Android\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001Web\u524d\u7aef\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001Java\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001C/C++\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001NodeJS\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f\u3001\u67b6\u6784\u5e08\u7b80\u5386\u6a21\u677f\u4ee5\u53ca\u901a\u7528\u7a0b\u5e8f\u5458\u7b80\u5386\u6a21\u677f", 
+      "html_url": "https://github.com/geekcompany/ResumeSample", 
+      "name": "ResumeSample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7380510?v=3", 
+        "html_url": "https://github.com/geekcompany", 
+        "login": "geekcompany"
+      }
+    }, 
+    {
+      "description": "WebRTC demos and samples", 
+      "html_url": "https://github.com/webrtc/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/10526312?v=3", 
+        "html_url": "https://github.com/webrtc", 
+        "login": "webrtc"
+      }
+    }, 
+    {
+      "description": "A barebones Node.js app using the Express framework.", 
+      "html_url": "https://github.com/heroku/node-js-sample", 
+      "name": "node-js-sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/23211?v=3", 
+        "html_url": "https://github.com/heroku", 
+        "login": "heroku"
+      }
+    }, 
+    {
+      "description": "samples", 
+      "html_url": "https://github.com/ihrupin/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/525871?v=3", 
+        "html_url": "https://github.com/ihrupin", 
+        "login": "ihrupin"
+      }
+    }, 
+    {
+      "description": "Sample data sets for OpenEyes", 
+      "html_url": "https://github.com/openeyes/Sample", 
+      "name": "Sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/551706?v=3", 
+        "html_url": "https://github.com/openeyes", 
+        "login": "openeyes"
+      }
+    }, 
+    {
+      "description": "C\u00e1c v\u00ed d\u1ee5 h\u1ecdc php", 
+      "html_url": "https://github.com/hmanview/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/6119736?v=3", 
+        "html_url": "https://github.com/hmanview", 
+        "login": "hmanview"
+      }
+    }, 
+    {
+      "description": "A trial run. This is to explore the functions of github and how it will be of use to the group.", 
+      "html_url": "https://github.com/micleonille/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/5991221?v=3", 
+        "html_url": "https://github.com/micleonille", 
+        "login": "micleonille"
+      }
+    }, 
+    {
+      "description": "filter for random sampling of input", 
+      "html_url": "https://github.com/silentbicycle/sample", 
+      "name": "sample", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/217280?v=3", 
+        "html_url": "https://github.com/silentbicycle", 
+        "login": "silentbicycle"
+      }
+    }, 
+    {
+      "description": "appium sample code (dotnet, java, node, perl, php, python, ruby, etc.)", 
+      "html_url": "https://github.com/appium/sample-code", 
+      "name": "sample-code", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3221291?v=3", 
+        "html_url": "https://github.com/appium", 
+        "login": "appium"
+      }
+    }, 
+    {
+      "description": "Ruby on Rails Tutorial sample application", 
+      "html_url": "https://github.com/railstutorial/sample_app", 
+      "name": "sample_app", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/35562?v=3", 
+        "html_url": "https://github.com/railstutorial", 
+        "login": "railstutorial"
+      }
+    }, 
+    {
+      "description": "A collection of Xamarin.Android sample projects.", 
+      "html_url": "https://github.com/xamarin/monodroid-samples", 
+      "name": "monodroid-samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/790012?v=3", 
+        "html_url": "https://github.com/xamarin", 
+        "login": "xamarin"
+      }
+    }, 
+    {
+      "description": "A repo containing samples tied to new functionality in each release of Google Chrome.", 
+      "html_url": "https://github.com/GoogleChrome/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1778935?v=3", 
+        "html_url": "https://github.com/GoogleChrome", 
+        "login": "GoogleChrome"
+      }
+    }, 
+    {
+      "description": "A sample project that exists for PyPUG's \"Tutorial on Packaging and Distributing Projects\"", 
+      "html_url": "https://github.com/pypa/sampleproject", 
+      "name": "sampleproject", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/647025?v=3", 
+        "html_url": "https://github.com/pypa", 
+        "login": "pypa"
+      }
+    }, 
+    {
+      "description": "Windows 10 IoT Core Samples", 
+      "html_url": "https://github.com/ms-iot/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/7927770?v=3", 
+        "html_url": "https://github.com/ms-iot", 
+        "login": "ms-iot"
+      }
+    }, 
+    {
+      "description": "Sample Code", 
+      "html_url": "https://github.com/eway2012/SampleCode", 
+      "name": "SampleCode", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1961239?v=3", 
+        "html_url": "https://github.com/eway2012", 
+        "login": "eway2012"
+      }
+    }, 
+    {
+      "description": "Bukkit Sample Plugin", 
+      "html_url": "https://github.com/Bukkit/SamplePlugin", 
+      "name": "SamplePlugin", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/544609?v=3", 
+        "html_url": "https://github.com/Bukkit", 
+        "login": "Bukkit"
+      }
+    }, 
+    {
+      "description": "Sample Code", 
+      "html_url": "https://github.com/erica/iphone-3.0-cookbook-", 
+      "name": "iphone-3.0-cookbook-", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/32688?v=3", 
+        "html_url": "https://github.com/erica", 
+        "login": "erica"
+      }
+    }, 
+    {
+      "description": "A collection of Wave engine sample projects", 
+      "html_url": "https://github.com/WaveEngine/Samples", 
+      "name": "Samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/4159362?v=3", 
+        "html_url": "https://github.com/WaveEngine", 
+        "login": "WaveEngine"
+      }
+    }, 
+    {
+      "description": "An open source project for beego sample applications.", 
+      "html_url": "https://github.com/beego/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/3884041?v=3", 
+        "html_url": "https://github.com/beego", 
+        "login": "beego"
+      }
+    }, 
+    {
+      "description": "Chrome Apps", 
+      "html_url": "https://github.com/GoogleChrome/chrome-app-samples", 
+      "name": "chrome-app-samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1778935?v=3", 
+        "html_url": "https://github.com/GoogleChrome", 
+        "login": "GoogleChrome"
+      }
+    }, 
+    {
+      "description": "", 
+      "html_url": "https://github.com/xamarin/mobile-samples", 
+      "name": "mobile-samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/790012?v=3", 
+        "html_url": "https://github.com/xamarin", 
+        "login": "xamarin"
+      }
+    }, 
+    {
+      "description": "Demo Code for HexBright", 
+      "html_url": "https://github.com/hexbright/samples", 
+      "name": "samples", 
+      "owner": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2414296?v=3", 
+        "html_url": "https://github.com/hexbright", 
+        "login": "hexbright"
+      }
+    }
+  ], 
+  "total_count": 177011
+}
