@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
 import requests
 
 app = Flask(__name__)
@@ -12,11 +12,20 @@ def hello():
 def render():
     return render_template("js.html")
 
-@app.route("/search/<search_query>")
-def search(search_query):
-    url = "https://api.github.com/search/repositories?q=" + search_query
-    responseJSON = requests.get(url).json()
-    return jsonify(parse_response(responseJSON))
+# @app.route("/search/<search_query>")
+# def search(search_query):
+#     url = "https://api.github.com/search/repositories?q=" + search_query
+#     responseJSON = requests.get(url).json()
+#     return jsonify(parse_response(responseJSON))
+
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    if request.method == "POST":
+        url = "https://api.github.com/search/repositories?q=" + request.form["user_search"]
+        response_dict = requests.get(url).json()
+        return jsonify(parse_response(response_dict))
+    else: # request.method == "GET"
+        return render_template("search.html")
 
 def parse_response(response_dict):
     clean_dict = {
