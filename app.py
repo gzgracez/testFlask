@@ -22,18 +22,19 @@ def render():
 def search():
     if request.method == "POST":
         if request.form["user_search"] == "":
-            return render_template("search.html")
+            return render_template("search.html", msg = "Please enter a search request!")
         else: 
             url = "https://api.github.com/search/repositories?q=" + request.form["user_search"]
             try:
                 response_dict = requests.get(url).json()
             except: #connection error
-                return render_template("search.html")
+                return render_template("search.html", msg = "Please enter your search request!")
             else:
-                if not response_dict["items"]: #error response
-                    return render_template("search.html")
-                # return jsonify(parse_response(response_dict))
-                else: 
+                # if not response_dict["items"]: #error response
+                #     print response_dict
+                #     return render_template("search.html", msg = "No results found! Enter another search request: ")
+                # # return jsonify(parse_response(response_dict))
+                # else: 
                     return render_template("results.html", user_search = request.form["user_search"], gh_data = response_dict)
     else: # request.method == "GET"
         return render_template("search.html")

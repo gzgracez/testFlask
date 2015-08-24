@@ -6,6 +6,9 @@ Search
 
 {% block body %}
     <h1>Search Github Repositories</h1>
+    {% if msg %}
+        <p>{{msg}}</p>
+    {% endif %}
     <form action="/search" method="post">
         <input type="text" placeholder="Search on Github" name="user_search" required/>
         <button type="submit">Search</button>
