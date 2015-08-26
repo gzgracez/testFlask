@@ -5,11 +5,12 @@
         <ul class="no-bullet">
             {% for repo in gh_data["items"] %}
                 <li>
-                    {% if repo.owner.login %}
-                        <h3>{{ repo.name }} <small>by {{ repo.owner.login }}</small></h3>
-                    {% else %}
-                        <h3>{{ repo.name }}</h3>
-                    {% endif %}
+                    
+                        {% if repo.owner.login %}
+                            <h3><a href="{{repo.html_url}}">{{ repo.name }}</a> <small>by {{ repo.owner.login }}</small></h3>
+                        {% else %}
+                            <h3><a href="{{repo.html_url}}">{{ repo.name }}</a></h3>
+                        {% endif %}
                     <ul class="no-bullet">
                         <li>
                             {% if repo.description %}
