@@ -1,17 +1,27 @@
 {% extends "base.html" %}
 
-{% block title %}
-Search
-{% endblock %}
+{% block title %}Search{% endblock %}
 
 {% block body %}
-    <h1>Search Github Repositories</h1>
-    {% if msg %}
-        <p>{{msg}}</p>
-    {% endif %}
-    <form action="/search" method="post">
-        <input type="text" placeholder="Search on Github" name="user_search" required/>
-        <button type="submit">Search</button>
-    </form>
-    {% block results %}{% endblock %}
+<div class="row">
+  <div class="large-12 columns">
+    <div class="panel">
+        <h1>Search Github Repositories</h1>
+        {% if msg %}
+            <p>{{msg}}</p>
+        {% endif %}
+        <form action="/search" method="post">
+            <div class="row collapse">
+                <div class="small-10 columns">
+                    <input type="text" placeholder="Search on Github" name="user_search" required/>
+                </div>
+                <div class="small-2 columns">
+                    <button class="postfix" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+        {% block results %}{% endblock %}
+    </div>
+  </div>
+</div>
 {% endblock %}

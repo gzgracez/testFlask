@@ -6,7 +6,7 @@ app.config["DEBUG"] = True
 
 @app.route("/")
 def hello():
-    return render_template("search.html")
+    return render_template("intro.html")
 
 @app.route("/render")
 def render():
