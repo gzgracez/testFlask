@@ -2,15 +2,15 @@
 {% block results %}
     <h1>You searched for "{{ user_search }}"</h1>
     {% if gh_data["items"] %}
-        <ul>
+        <ul class="no-bullet">
             {% for repo in gh_data["items"] %}
                 <li>
                     {% if repo.owner.login %}
-                        <h3>{{ repo.name }} by {{ repo.owner.login }}</h3>
+                        <h3>{{ repo.name }} <small>by {{ repo.owner.login }}</small></h3>
                     {% else %}
                         <h3>{{ repo.name }}</h3>
                     {% endif %}
-                    <ul>
+                    <ul class="no-bullet">
                         <li>
                             {% if repo.description %}
                                 <p>{{ repo.description }}</p>
